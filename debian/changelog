@@ -1,0 +1,7 @@
+pynmea2 (1.8.0-1) unstable; urgency=low
+
+  * Initial debian package of pynmea2
+  * Closes: #870906
+
+ -- EngSaS - Joachim Langenbach <info@engsas.de>  Sun, 06 Aug 2017 10:45:00 +0200
+
