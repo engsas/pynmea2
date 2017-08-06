@@ -1,3 +1,8 @@
+pynmea2 (1.8.0-2) unstable; urgency=low
+
+  * Fixed python2 package
+
+ -- EngSaS - Joachim Langenbach <info@engsas.de>  Sun, 06 Aug 2017 17:00:00 +0200
 pynmea2 (1.8.0-1) unstable; urgency=low
 
   * Initial debian package of pynmea2
