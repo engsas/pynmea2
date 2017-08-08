@@ -2,23 +2,13 @@ Source: pynmea2
 Section: python
 Priority: optional
 Maintainer: EngSaS Maintainer <info@engsas.de>
-Build-Depends: debhelper (>= 9), dh-python, python-all, python3-all, python-all-dev, python3-all-dev, python-setuptools, python3-setuptools
+Build-Depends: debhelper (>= 9), dh-python, python3-all, python3-all-dev, python3-setuptools
 Standards-Version: 3.9.8
 Homepage: https://github.com/Knio/pynmea2
 Vcs-Git: https://github.com/engsas/pynmea2.git
 Vcs-Browser: https://github.com/engsas/pynmea2
-X-Python-Version: >= 2.6
 X-Python3-Version: >= 3.2
 Testsuite: autopkgtest-pkg-python
-
-Package: python-pynmea2
-Architecture: any
-Depends: ${python:Depends}, ${misc:Depends}, ${shlibs:Depends}
-Provides: ${python:Provides}
-Description: pynmea2 is a Python library for the NMEA 0183 protocol
- You can parse individual NMEA sentences and you can create 
- NMEASentence objects from your data. Also NMEA 0183 data streams
- could be processed.
 
 Package: python3-pynmea2
 Architecture: any  

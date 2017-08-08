@@ -1,26 +1,5 @@
-pynmea2 (1.8.0-4) unstable; urgency=low
-
-  * Fixed lintian errors
-    * duplicate-short-description,
-    * vcs-field-uses-insecure-uri,
-    * capitalization-error-in-description-synopsis
-    * ancient-standards-version
-  * Fixed Vcs urls
-
- -- EngSaS Maintainer <info@engsas.de>  Tue, 08 Aug 2017 10:00:00 +0200
-pynmea2 (1.8.0-3) unstable; urgency=low
-
-  * Fixed lintian errors (removed manpage templates)
-  * Closes: #870906
-
- -- EngSaS Maintainer <info@engsas.de>  Mon, 07 Aug 2017 14:30:00 +0200
-pynmea2 (1.8.0-2) unstable; urgency=low
-
-  * Fixed python2 package
-
- -- EngSaS Maintainer <info@engsas.de>  Sun, 06 Aug 2017 17:00:00 +0200
 pynmea2 (1.8.0-1) unstable; urgency=low
 
-  * Initial debian package of pynmea2
+  * Initial release (Closes: #870906)
 
- -- EngSaS Maintainer <info@engsas.de>  Sun, 06 Aug 2017 10:45:00 +0200
+ -- EngSaS Maintainer <info@engsas.de>  Tue, 08 Aug 2017 13:00:00 +0200
