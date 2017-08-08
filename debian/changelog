@@ -1,3 +1,13 @@
+pynmea2 (1.8.0-4) unstable; urgency=low
+
+  * Fixed lintian errors
+    * duplicate-short-description,
+    * vcs-field-uses-insecure-uri,
+    * capitalization-error-in-description-synopsis
+    * ancient-standards-version
+  * Fixed Vcs urls
+
+ -- EngSaS Maintainer <info@engsas.de>  Tue, 08 Aug 2017 10:00:00 +0200
 pynmea2 (1.8.0-3) unstable; urgency=low
 
   * Fixed lintian errors (removed manpage templates)
