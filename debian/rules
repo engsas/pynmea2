@@ -6,6 +6,6 @@ export PYBUILD_NAME = pynmea2
 %:
 	dh $@ --with python3 --buildsystem=pybuild
 
-#override_dh_strip:
-#	dh_strip -ppython-pynmea2  --dbg-package=python-pynmea2-dbg
-#	dh_strip -ppython3-pynmea2 --dbg-package=python3-pynmea2-dbg
+clean:
+	rm -rf *.egg-info/SOURCES.txt
+	dh_clean
