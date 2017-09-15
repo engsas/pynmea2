@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: pynmea2
-Version: 1.8.0
+Version: 1.9.0
 Summary: Python library for the NMEA 0183 protcol
 Home-page: https://github.com/Knio/pynmea2
 Author: Tom Flanagan

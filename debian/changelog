@@ -1,5 +1,5 @@
-pynmea2 (1.8.0-1) unstable; urgency=low
+pynmea2 (1.9.0-1) unstable; urgency=low
 
   * Initial release (Closes: #870906)
 
- -- EngSaS Maintainer <info@engsas.de>  Fri, 15 Sep 2017 09:00:00 +0200
+ -- EngSaS Maintainer <info@engsas.de>  Fri, 15 Sep 2017 09:45:00 +0200
