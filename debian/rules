@@ -5,7 +5,3 @@ export PYBUILD_NAME = pynmea2
 
 %:
 	dh $@ --with python3 --buildsystem=pybuild
-
-override_dh_auto_clean:
-	rm -rf *.egg-info/SOURCES.txt
-	dh_auto_clean
